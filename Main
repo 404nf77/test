@@ -14,6 +14,6 @@ goto main
 echo Press any key to install the latest update!
 pause >nul
  
-curl https://pastebin.com/raw/W3BFKkiF > app.bat
+curl https://raw.githubusercontent.com/404nf77/test/main/Main > app.bat
  
 goto update
