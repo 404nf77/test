@@ -1,0 +1,19 @@
+@echo off
+ 
+curl https://pastebin.com/raw/Hv30wUbK > lv.txt
+cls
+set /p lv=<"lv.txt"
+del lv.txt
+if %lv%==1 (goto main) else (goto update)
+ 
+:main
+echo Home Screen
+pause 
+goto main
+:update
+echo Press any key to install the latest update!
+pause 
+ 
+curl https://raw.githubusercontent.com/404nf77/test/main/Main > app.bat
+ 
+goto update
