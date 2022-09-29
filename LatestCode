@@ -4,15 +4,15 @@
 curl https://raw.githubusercontent.com/404nf77/test/main/Version > x.ver
 set /p version=<"x.ver"
 del x.ver
-if %version%==1 (goto home) else (goto update)
+if %version%==2 (goto home) else (goto update)
 
 :home
 cls
-echo Welcome!
-pause
+echo Welcome, User!
+pause <nul
 
 :update
 cls
 echo You need an update!
-pause
+pause <nul
 curl https://raw.githubusercontent.com/404nf77/test/new/LatestCode > App.bat
