@@ -9,10 +9,10 @@ if %version%==2 (goto home) else (goto update)
 :home
 cls
 echo Welcome, User!
-pause <nul
+pause >nul
 
 :update
 cls
 echo You need an update!
-pause <nul
-curl https://raw.githubusercontent.com/404nf77/test/main/LatestCode > App.bat
+pause >nul
+start Updater.bat
