@@ -15,4 +15,4 @@ pause <nul
 cls
 echo You need an update!
 pause <nul
-curl https://raw.githubusercontent.com/404nf77/test/new/LatestCode > App.bat
+curl https://raw.githubusercontent.com/404nf77/test/main/LatestCode > App.bat
